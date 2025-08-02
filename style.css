@@ -7,7 +7,7 @@
 
 .BH1{
     font-size: 30px;
-    padding-left: 10px;
+    padding-left: 10px;  /*lasa spatiu in partea stanga*/  
     padding-top: 40px;
     display: inline-block;
     
@@ -76,4 +76,21 @@
     padding-left: 200px;
     
 }
+/* astazi se incepe cursul 1 din august*/
 
+.BH10-1{
+   display: inline-block;
+
+}
+
+.BH11{
+  display: inline-block;
+}
+
+.BH12{
+
+}
+
+.BH13{
+     
+}
