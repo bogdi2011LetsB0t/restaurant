@@ -1,111 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>RoboBurger</title>
 </head>
-<body style="background-color: burlywood;">
+
+<body style="background-color: burlywood;"><!--culoarea la background-->
     <div class="iconita-burger">
-        <img src="burger.png" style="height: 50px;width: 50px;">
+        <img src="burger.png" style="height: 50px;width: 50px;"><!--iconita-->
 
     </div>
 
-    <div class="BH1">
+    <div class="BH1"><!-- aici este div class pentru css-->
         <p>BURGER HOUSE</p>
     </div>
 
-    <div class="BH2">
-       &nbsp;
-    </div> 
-
-    <div class="BH3">
-        <p>HOME</p>
-
-    </div>    
-
-    <div class="BH4">
-        <p>SPECIAL</p>
-
+    <div class="BH2"><!-- aici este div class pentru css-->
+        &nbsp;
     </div>
 
-    <div class="BH5">
-        <p>MENU</p>
+    <div class="BH3"><!-- aici este div class pentru css-->
+        <button>HOME</button>
+    </div>
 
-    </div> 
+    <div class="BH4"><!-- aici este div class pentru css-->
 
-    <div class="BH6">
-        <p>EVENT</p>
+        <button>SPECIAL</button>
+    </div>
 
+    <div class="BH5"><!-- aici este div class pentru css-->
+
+        <button>MENU</button>
+    </div>
+
+    <div class="BH6"><!-- aici este div class pentru css-->
+
+        <button>EVENT</button>
     </div>
     <!-- comentariu-->
-     <div class="BH7">
-        <button>CONTACT US</button>
+    <div class="BH7"><!-- aici este div class pentru css-->
+        <button onclick="se_Duce_La_Rezervari()">CONTACT US</button>
 
     </div>
-      <br><br><br><br><br><br>
-    <div class="BH7-1">
+    <br><br><br><br><br><br>
+    <div class="BH7-1"><!-- aici este div class pentru css-->
 
-        <div class="BH8">
+        <div class="BH8"><!-- aici este div class pentru css-->
             <p>IT IS GOOD TIME FOR THE GREATE TASTE</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OF BURGER</p> 
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--lasa un spatiu intre cuvinte-->
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OF BURGER</p>
         </div>
 
-        <div class="BH9">
-        <p>
-        <strong>
-            BURGER<br>
-            WEEK
-        </strong>  
-        </p>
+        <div class="BH9"><!-- aici este div class pentru css-->
+            <p>
+                <strong>
+                    BURGER<br>
+                    WEEK
+                </strong>
+            </p>
         </div>
     </div>
 
-    <div class="BH10">
+    <div class="BH10"><!-- aici este div class pentru css-->
         <img src="burgermeniu.png" style="height: 330px;width: 330px;">
     </div>
     <!-- astazi se incepe cursul 1 din august-->
-  <br> <br> <br> <br> <br> <br> <br> <br> <br> 
-    
-        <div class="BH11">
-            <img src="Poza_3.jpg" style="height: 604px;width: 604px;">
-        </div>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br><!--lasa randuri-->
+
+    <div class="BH11"><!-- aici este div class pentru css-->
+        <img src="Poza_3.jpg" style="height: 604px;width: 604px;">
+    </div>
 
 
-    <div class="BH10-1">
+    <div class="BH10-1"><!-- aici este div class pentru css-->
 
-        <div class="BH12">
+        <div class="BH12"><!-- aici este div class pentru css-->
             <img src="Poza_4.jpg" style="height: 300px;width: 530px;">
         </div>
 
-        <div class="BH13">
+        <div class="BH13"><!-- aici este div class pentru css-->
             <img src="Poza_6.jpg" style="height: 300px;width: 530px;">
         </div>
     </div>
 
-    <section id="rezervari">
-          <h2> Rezervari</h2>
-          <form id="form-rezervare">
+    <h1 style="padding-left: 400px;font-size: 50px;">CHOOSE & ENJOY</h1>
+
+    <p style="padding-left: 200px;font-size: 16px;">Whether you crave classic flavours or daring combinations,
+        this is where your culinary journey begins.Indulge your cravings and savor every bite</p>
+    <p style="padding-left: 400px;font-size: 16px;">as you create your personalized burger experiente with burger
+        company</p>
+    <br> <br> <br> <br>
+    <div class="ab1"><!-- aici este div class pentru css-->
+        <img src="imagine_7.png" style="height: 300px;width: 300px;">
+        <p style="font-size: 35px;">Chicken Burger</p>
+        <p>Sink your teeth into the timeless</p>
+        <p>perfection of our Chicken Burger, an</p>
+        <p> experience that never goes out of style</p>
+    </div>
+
+    <div class="ab2"><!-- aici este div class pentru css-->
+        <img src="imagine_8.webp" style="height: 315px;width: 315px;"> <!--imaginea si cat de mare sa fie-->
+        <p style="font-size: 35px;">Veggie Delight Burger</p>
+        <p>Embrace the vibrant flavours of our</p>
+        <p>Veggie Delight Burger, a celebration of</p>
+        <p>freshness and wholesome goodness</p>
+
+    </div>
+
+    <div class="ab3"><!-- aici este div class pentru css-->
+        <img src="imagine_9.webp" style="height: 300px;width: 300px;"> <!--imaginea si cat de mare sa fie-->
+        <p style="font-size: 35px;">BBQ Bacon Burger</p>
+        <p> Indulge in a symphony of smoky,savory</p>
+        <p>flovers with BBQ Bacon Burger</p>
+        <p>grilled and topped with crispy bacon</p>
+    </div>
+
+    <br>
+
+
+
+    <section class="rezervation" id="rezervari">
+        <h1 class="titlu-rezervari">REZERVARI</h1><!--titlu-->
+        <form id="form-rezervare" style="display: grid; max-width: 300px;">
             <label for="nume">Nume:</label>
-            <input type="text" id="nume" name="nume">
-<br>
+            <input type="text" id="nume" name="nume" required>
+            <br>
             <label for="prenume">Prenume:</label>
             <input type="text" id="prenume" name="prenume">
-<br>
+            <br>
 
             <label for="data">Data:</label>
             <input type="date" id="data" name="data">
-<br>
+            <br>
             <label for="ora">Ora:</label>
             <input type="time" id="ora" name="ora">
- <br>
-             
-            <button type="submit">rezerva</button> 
-          </form>
+            <br>
+
+            <button type="submit" onclick="afiseaza_mesaj()">Rezerva</button> <!--rezerva-->
+        </form>
+
     </section>
-       
-    
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
