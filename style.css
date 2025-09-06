@@ -1,6 +1,6 @@
 .iconita-burger{
     display: inline-block;
-    margin-left:  150px;
+    margin-left:  150px;/* cat de in margine sa fie*/
     
 }
 
@@ -24,11 +24,29 @@
      
 }
 
+.BH3 button{
+    background-color:burlywood;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+
 .BH4{
     display: inline-block;
     
       padding-left: 20px;
-     padding-right: 20px;
+     padding-right: 20px;/*sa se duca in stanga*/
+}
+
+.BH4 button{
+    background-color:burlywood;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
 }
 
 .BH5{
@@ -36,17 +54,45 @@
      
 }
 
+.BH5 button{
+    background-color:burlywood;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+
 .BH6{
     display: inline-block;
      
-      padding-left: 20px;
+     padding-left: 20px;
      padding-right: 20px;
+}
+
+.BH6 button{
+    background-color:burlywood;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
 }
 
 .BH7{
     display: inline-block;
     
 }
+
+.BH7 button{
+    background-color:burlywood;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+
 .BH7-1{
     display: inline-block;
    
@@ -58,15 +104,15 @@
     margin-left: 150px;
     padding-left: 20px;
     font-size: 20px;
-    border: 2px dashed black; 
-    width: 400px;
-    height: 100px;
+    border: 2px dashed black; /*sa fie in patrat*/
+    width: 400px;/*grosimea*/
+    height: 100px;/*inaltime*/
 } 
 
 .BH9{
-    font-size: 50px;
+    font-size: 50px;/*cat de mare sa fie scrisul*/
     padding-left: 150px;
-    font-family: fantasy;
+    font-family: fantasy;/*aici este fontul scrisului*/
     
     
 }
@@ -93,4 +139,60 @@
 
 .BH13{
      
+}
+
+.ab1{
+    padding-left: 50px;
+   display: inline-block;
+}
+
+.ab2{
+    padding-left: 130px;/*se duce in dreapta */
+   display: inline-block;/*aici se pune in linie*/
+}
+
+.ab3{
+    padding-left: 130px;
+   display: inline-block;
+}
+
+.rezervation{
+    text-align: center;
+    position: relative;
+    isolation: isolate;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.titlu-rezervari{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 3rem; /*aici este o alta unitate de masura*/
+    font-weight: 900px; /*grosimea caracterelor*/
+    text-align: center;/*aliniere text in mijloc*/
+}
+
+/*30.08.2025*/
+
+#rezervari{
+    background-color: #e11d48;
+    padding: 30px;
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 50px;/*rotunjirea colturilor chenarului*/
+    box-shadow: 0 0 19px black;
+    /*background-color: rgb(10, 142, 157);*/
+    border: 3px solid black;
+}
+
+#rezervari input{
+    border-radius: 10px;
+}
+
+#rezervari button{
+    border-radius: 10px ;
+    border: 3px  solid black;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
 }
